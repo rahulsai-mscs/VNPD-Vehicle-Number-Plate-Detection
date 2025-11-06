@@ -1,12 +1,8 @@
 # Tensorflow Object Detection Walkthrough
-<p>This set of Notebooks provides a complete set of code to be able to train and leverage your own custom object detection model using the Tensorflow Object Detection API. This accompanies the Tensorflow Object Detection course on my <a href="https://www.youtube.com/c/nicholasrenotte">YouTube channel</a>. 
-<img src="https://i.imgur.com/H3tUyKM.png">
+<p>This set of Notebooks provides a complete set of code to be able to train and leverage custom object detection model using the Tensorflow Object Detection API.
 
 ## Steps
-<br />
-<b>Step 1.</b> Clone this repository: https://github.com/nicknochnack/TFODCourse
-<br/><br/>
-<b>Step 2.</b> Create a new virtual environment 
+<b>Step 1.</b> Create a new virtual environment 
 <pre>
 python -m venv tfod
 </pre> 
@@ -45,4 +41,5 @@ If not, resolve installation errors by referring to the <a href="https://github.
 and open Tensorboard with the following command
 <pre>tensorboard --logdir=. </pre>
 Tensorboard will be accessible through your browser and you will be able to see metrics including mAP - mean Average Precision, and Recall.
+
 <br />
